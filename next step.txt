@@ -1,0 +1,9 @@
+Conforme o `prompt.md`, o próximo passo é a **Indexação**. 
+
+Inicie a implementação do sistema de indexação, que incluirá:
+
+1. Varredura de arquivos em pastas selecionadas.
+2. Extração de texto e metadados de formatos suportados.
+3. Fragmentação (chunking) de texto.
+4. Geração de embeddings locais usando Ollama.
+5. Persistência do índice (vetorial e textual) localmente
