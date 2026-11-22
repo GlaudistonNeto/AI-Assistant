@@ -1,0 +1,17 @@
+[package]
+name = "ai-assistant"
+version = "0.1.0"
+edition = "2021"
+description = "Local search and RAG application with Ollama"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+walkdir = "2.4"
+anyhow = "1.0"
+log = "0.4"
+env_logger = "0.10"
+regex = "1.10"
+config = "0.13"

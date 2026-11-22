@@ -1,0 +1,12 @@
+{
+  "index_folders": [
+    "."
+  ],
+  "max_file_size_mb": 50,
+  "exclusions": [
+    ".git",
+    "node_modules"
+  ],
+  "ollama_url": "http://localhost:11434",
+  "embedding_model": "llama3"
+}
